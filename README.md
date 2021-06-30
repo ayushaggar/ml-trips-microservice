@@ -95,3 +95,7 @@ $ python etl.py
 4) Using cloud native db like big query
 5) Ingestion of data through Kafka streams
 6) Integration of redis for cache response
+
+## Creating git bundle
+git bundle create ml-trips-microservice.bundle HEAD main
+git clone ml-trips-microservice.bundle repotest

@@ -98,4 +98,5 @@ $ python etl.py
 
 ## Creating git bundle
 git bundle create ml-trips-microservice.bundle HEAD main
+
 git clone ml-trips-microservice.bundle repotest

@@ -4,8 +4,14 @@
 1) Web Service with 3 endpoints that provides basic analytics over Chicago Taxi Trips.
 2) Production ready code for infrastructure deployment - deployability, maintainability, documentation, testing and easily extension
 
+# Use
+1) Interesting problem in transport, logistics, and
+economics.
+2) Leverage machine learning to build data products for ride-hailing, logistics, food
+delivery, and payments.
+
 **Input** -
-1) Dataset can be obtained from https://drive.google.com/file/d/1QLBGFOoKw_3-iM58q4unWfwHmPqfnrYr/edit
+1) Dataset can be obtained from https://drive.google.com/file/d/1ExhbFVz5Qb57VvobiEUPB6q0onLVmJEF/view?usp=sharing [contact me here - ayushaggar@gmail.com for data access]
 2) The dataset includes taxi trips in Chicago for the year 2020.
 3) There are 3,888,425 rows in the dataset
 
@@ -97,6 +103,6 @@ $ python etl.py
 6) Integration of redis for cache response
 
 ## Creating git bundle
-git bundle create ml-trips-microservice.bundle HEAD main
+git bundle create ml_trips_microservice.bundle HEAD main
 
-git clone ml-trips-microservice.bundle repotest
+git clone ml_trips_microservice.bundle ml_trips_microservice
